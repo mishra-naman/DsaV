@@ -1,0 +1,38 @@
+/* ArrayComponent.css */
+
+.array-container {
+  text-align: center;
+  margin-top: 150px;
+}
+
+/* Light theme */
+.array-container.light .array-visual {
+  border: 2px solid #333;
+  background-color: #f0f0f0;
+}
+
+.array-container.light .array-item {
+  background-color: #000000;
+  color: white;
+  border: 1px solid white;
+}
+
+.result-container.light {
+  background-color: rgb(0, 217, 255);
+}
+
+/* Dark theme */
+.array-container.dark .array-visual {
+  border: 2px solid #ccc;
+  background-color: #333;
+}
+
+.array-container.dark .array-item {
+  background-color: #ffffff;
+  color: #000;
+  border: 1px solid #333;
+}
+
+.result-container.dark {
+  background-color: rgb(0, 100, 150);
+}
